@@ -5,7 +5,7 @@ import numpy as np
 import seaborn as sns
 from kneed import DataGenerator, KneeLocator
 from sklearn.cluster import KMeans
-from sklearn.metrics import silhouette_score, davies_bouldin_score   # ← adicionado DB
+from sklearn.metrics import silhouette_score, davies_bouldin_score
 from sklearn.preprocessing import MinMaxScaler
 import pandas as pd
 
